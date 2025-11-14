@@ -18,6 +18,7 @@ export default function App() {
         <Link to="/">Inicio</Link> |
         <Link to="/empresas">Empresas</Link> |
         <Link to="/mapa">Mapa</Link> |
+        
       </nav>
       <Routes>
         <Route path='/' element={<Inicio />}></Route>
